@@ -77,11 +77,6 @@ public class Chat extends AppCompatActivity {
                     ref2.child("message").setValue(messageText);
                     ref2.child("user").setValue(UserDetails.username);
                     ref2.child("time").setValue(time.toString());
-//                    Map<String, String> map = new HashMap<String, String>();
-//                    map.put("message", messageText);
-//                    map.put("user", UserDetails.username);
-//                    reference1.push().setValue(map);
-//                    reference2.push().setValue(map);
                 }
                 else {}
             }
