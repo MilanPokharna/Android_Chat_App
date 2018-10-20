@@ -20,6 +20,7 @@ import com.android.volley.toolbox.Volley;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+#login activity for users to login
 public class Login extends AppCompatActivity {
     TextView register;
     EditText username, password;
